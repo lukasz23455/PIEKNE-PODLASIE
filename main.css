@@ -1,0 +1,330 @@
+body
+{
+	margin: 0;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url(glownezdjecia/tlo.jpg);
+	/*Photo by Bryan Minear on Unsplash*/
+	color: #efefef;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 17px;
+}
+
+a:link
+{
+	text-decoration: none;
+}
+
+a:visited
+{
+    color: #fff;
+}
+
+a:hover
+{
+    color: #fff;
+}
+
+a:active
+{
+	color: #fff;
+}
+
+h1
+{
+	font-size:40px;
+	font-weight: 700;
+	color: #ccc;
+	text-align:center;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+.wrapper
+{
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+.container
+{
+   width: 60%;
+   text-align:center;
+}
+
+.advertisement1
+{
+	width: 20%;
+}
+.advertisement2
+{
+  width: 20%;
+	text-align:right;
+ }
+
+.postcard
+{
+	display: inline-block;
+	width: 450px;
+	text-align:center;
+	padding:5px;
+}
+
+figcaption
+{
+	margin-top:10px;
+	padding:5px;
+	font-size:25px;
+	color: #a6a6a6;
+	text-align:center;
+}
+
+.photo1
+{
+	width:450px;
+}
+
+.glyphicon
+{
+	top: 25%;
+	font-size: 72px;
+	color:#a6a6a6;
+}
+
+.overlay1
+{
+	position:relative;  /* zmiana ukladu odniesienia, teraz wzgledem lewego gornego rogu o pkt(0,0) na naszym zdjeciu. Żeby tego nie bylo to podpis foto bylby wzgledem lewego gornego rogu glownej strony  */
+	width: 450px;
+	height: 270px;
+}
+
+.link1 p /*obrobka tekstu na obrazku */
+{
+	margin-top:10px;
+	font-size:40px;
+	letter-spacing:2px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.overlay1 .link1  /*łapiemy klase link ktora znajduje sie wewnatrz overlay */
+{
+	position: absolute; /*wzgledem zdjecia z position:relative*/
+	display:block;
+	width:450px;
+	height: 270px;
+	background-color: #004d00;
+	left: 0px;  /*przyklejamy blok do punktu 0,0 */
+	top: 0px;
+	opacity:0;
+	transition: opacity 0.5s ease-in-out;
+}
+
+.overlay1:hover .link1 /* overlay:hover bo chcemy pokazac tekst takze po najechaniu na obraz a nie tylko na dolny pasek */
+{
+	opacity: 0.8;
+}
+
+.photo2
+{
+	width:450px;
+}
+
+.overlay2
+{
+	position:relative;  /* zmiana ukladu odniesienia, teraz wzgledem lewego gornego rogu o pkt(0,0) na naszym zdjeciu. Żeby tego nie bylo to podpis photo4 bylby wzgledem lewego gornego rogu glownej strony  */
+	width: 450px;
+	height: 270px;
+}
+
+.link2 p
+{
+	margin-top:10px;
+	font-size:40px;
+	letter-spacing:2px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.overlay2 .link2  /*łapiemy klase link ktora znajduje sie wewnatrz overlay */
+{
+	position: absolute; /*wzgledem zdjecia z position:relative*/
+	display:block;
+	width:450px;
+	height: 270px;
+	background-color: #404040;
+	left: 0px;  /*przyklejamy blok do punktu 0,0 */
+	top: 0px;
+	opacity:0;
+	transition: opacity 0.5s ease-in-out;
+}
+
+.overlay2:hover .link2 /* overlay:hover bo chcemy pokazac tekst takze po najechaniu na obraz a nie tylko na dolny pasek */
+{
+	opacity: 0.8;
+}
+
+.photo3
+{
+	width:450px;
+}
+
+.overlay3
+{
+	position:relative;  /* zmiana ukladu odniesienia, teraz wzgledem lewego gornego rogu o pkt(0,0) na naszym zdjeciu. Żeby tego nie bylo to podpis photo4 bylby wzgledem lewego gornego rogu glownej strony  */
+	width: 450px;
+	height: 270px;
+}
+
+.link3 p
+{
+	margin-top:10px;
+	font-size:40px;
+	letter-spacing:2px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.overlay3 .link3  /*łapiemy klase link ktora znajduje sie wewnatrz overlay */
+{
+	position: absolute; /*wzgledem zdjecia z position:relative*/
+	display:block;
+	width:450px;
+	height: 270px;
+	background-color: #311800;
+	left: 0px;  /*przyklejamy blok do punktu 0,0 */
+	top: 0px;
+	opacity:0;
+	transition: opacity 0.5s ease-in-out;
+}
+
+.overlay3:hover .link3 /* overlay:hover bo chcemy pokazac tekst takze po najechaniu na obraz a nie tylko na dolny pasek */
+{
+	opacity: 0.8;
+}
+
+.photo4
+{
+	width:450px;
+}
+
+.overlay4
+{
+	position:relative;  /* zmiana ukladu odniesienia, teraz wzgledem lewego gornego rogu o pkt(0,0) na naszym zdjeciu. Żeby tego nie bylo to podpis photo4 bylby wzgledem lewego gornego rogu glownej strony  */
+	width: 450px;
+	height: 270px;
+}
+
+.link4 p
+{
+	margin-top:10px;
+	font-size:40px;
+	letter-spacing:2px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.overlay4 .link4  /*łapiemy klase link ktora znajduje sie wewnatrz overlay */
+{
+	position: absolute; /*wzgledem zdjecia z position:relative*/
+	display:block;
+	width:450px;
+	height: 270px;
+	background-color: #002966;
+	left: 0px;  /*przyklejamy blok do punktu 0,0 */
+	top: 0px;
+	opacity:0;
+	transition: opacity 0.5s ease-in-out;
+}
+
+.overlay4:hover .link4 /* overlay:hover bo chcemy pokazac tekst takze po najechaniu na obraz a nie tylko na dolny pasek */
+{
+	opacity: 0.8;
+}
+
+.photo5
+{
+	width:450px;
+}
+
+.overlay5
+{
+	position:relative;  /* zmiana ukladu odniesienia, teraz wzgledem lewego gornego rogu o pkt(0,0) na naszym zdjeciu. Żeby tego nie bylo to podpis photo4 bylby wzgledem lewego gornego rogu glownej strony  */
+	width: 450px;
+	height: 270px;
+}
+
+.link5 p
+{
+	margin-top:10px;
+	font-size:40px;
+	letter-spacing:2px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.overlay5 .link5  /*łapiemy klase link ktora znajduje sie wewnatrz overlay */
+{
+	position: absolute; /*wzgledem zdjecia z position:relative*/
+	display:block;
+	width:450px;
+	height: 270px;
+	background-color: #5c5c3d;
+	left: 0px;  /*przyklejamy blok do punktu 0,0 */
+	top: 0px;
+	opacity:0;
+	transition: opacity 0.5s ease-in-out;
+}
+
+.overlay5:hover .link5 /* overlay:hover bo chcemy pokazac tekst takze po najechaniu na obraz a nie tylko na dolny pasek */
+{
+	opacity: 0.8;
+}
+
+.photo6
+{
+	width:450px;
+}
+
+.overlay6
+{
+	position:relative;  /* zmiana ukladu odniesienia, teraz wzgledem lewego gornego rogu o pkt(0,0) na naszym zdjeciu. Żeby tego nie bylo to podpis photo4 bylby wzgledem lewego gornego rogu glownej strony  */
+	width: 450px;
+	height: 270px;
+}
+
+.link6 p
+{
+	margin-top:10px;
+	font-size:40px;
+	letter-spacing:2px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.overlay6 .link6  /*łapiemy klase link ktora znajduje sie wewnatrz overlay */
+{
+	position: absolute; /*wzgledem zdjecia z position:relative*/
+	display:block;
+	width:450px;
+	height: 270px;
+	background-color: #4d3319;
+	left: 0px;  /*przyklejamy blok do punktu 0,0 */
+	top: 0px;
+	opacity:0;
+	transition: opacity 0.5s ease-in-out;
+}
+
+.overlay6:hover .link6 /* overlay:hover bo chcemy pokazac tekst takze po najechaniu na obraz a nie tylko na dolny pasek */
+{
+	opacity: 0.8;
+}
+
+footer
+{
+	text-align:center;
+	padding:20px;
+	color: #a6a6a6;
+	font-size:25px;
+}
